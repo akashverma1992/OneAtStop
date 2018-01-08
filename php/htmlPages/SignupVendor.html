@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup Vendor</title>
+</head>
+<body>
+<table align='center' class=" table-condensed table-striped">
+    <form action='../classes/SignupVendor.php' method='post' role="form" onSubmit="return valid();">
+        <input type="hidden" name="role" value="vendor">
+        <div class="form-group">
+            <tr>
+                <td>Username</td>
+                <td><input type='text' name='username' value="" class="form-control"/></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type='text' name='password' value="" required class="form-control"/></td>
+            </tr>
+            <tr>
+                <td>Confirm Password</td>
+                <td><input type='text' name='cnfpassword' required class="form-control"/></td>
+            </tr>
+            <tr>
+                <td>Email ID</td>
+                <td><input type='email' name='email' value="" required class="form-control"/></td>
+            </tr>
+            <tr>
+                <td>Shop Name</td>
+                <td><input type='text' name='shop_name' required class="form-control"/></td>
+            </tr>
+            <tr>
+                <td>Shop Address</td>
+                <td><textarea name='shop_address' required class="form-control"/></textarea></td>
+            </tr>
+            <tr>
+                <td>Shop Type</td>
+                <td>
+                    <input type='text' name='shop_type' required class="form-control"/>
+                </td>
+            </tr>
+            <tr>
+                <td>PinCode</td>
+                <td><input type='text' name='pincode' class="form-control"/></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type='text' name='phone' class="form-control"/></td>
+            </tr>
+            <tr>
+                <td>URL</td>
+                <td><input type='text' name='url' class="form-control"/></td>
+            </tr>
+            <tr>
+                <td colspan=2><input type='submit' value='Register' name='submit' class="btn btn-success btn-block"/></td>
+            </tr>
+        </div>
+    </form>
+</table>
+</body>
+</html>

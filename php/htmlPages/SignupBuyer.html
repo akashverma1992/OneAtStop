@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup Buyer</title>
+</head>
+<body>
+<form action='../classes/SignupBuyer.php' method='post' role="form">
+    <input type="hidden" name="role" value="buyer">
+    <table align='center' class=" table-condensed table-striped">
+        <div class="form-group">
+            <tr>
+                <td>Username</td>
+                <td><input type='text' name='username' value="" class="form-control"/></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type='password' name='password' value="" required class="form-control"/></td>
+            </tr>
+            <tr>
+                <td>Confirm Password</td>
+                <td><input type='password' name='cnfpassword' required class="form-control"/></td>
+            </tr>
+            <tr>
+                <td>Email ID</td>
+                <td><input type='email' name='email' value="" required class="form-control"/></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input type='number' name='age' class="form-control"/></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type='number' name='phone' class="form-control"/></td>
+            </tr>
+            <tr>
+                <td colspan=2><input type='submit' name='submit' value='Register' class="btn btn-success btn-block"/></td>
+            </tr>
+        </div>
+    </table>
+</form>
+</body>
+</html>

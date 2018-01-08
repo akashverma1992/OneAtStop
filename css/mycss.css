@@ -1,0 +1,91 @@
+#mycarousel{
+	width:70%;
+	margin: auto;
+	margin-top:51px;
+}
+
+.carousel-inner img{
+	width: 100%;  /*Set width to 100% */
+  	margin: auto;
+}
+.navbar-brand img{
+	width:45px;
+	height:45px;
+	margin-top:-11px;
+}
+.ul-inner{
+	background-color:gray;
+	opacity:0.9%;
+}
+.ul-inner li a{
+	color:white;
+}
+.ul-inner li a:hover{
+	color:red;
+}
+/*Sidebar*/
+#sidebar-wrapper{
+	z-index:1;
+	position:absolute;
+	width:0;
+	height:78%;
+	overflow-y:hidden;
+	background:black;
+	opacity:0.9;
+}
+
+#menu-toggle{
+	position:realtive;
+	margin-top:8px;
+}
+
+/*Main Content*/
+#page-content-wrapper{
+	width:100%;
+	/*position:absolute;
+	padding:15px;*/
+}
+
+/*Change the display of the sidebar to display it*/
+#wrapper.menuDisplayed #sidebar-wrapper{
+	width:200px;
+}
+
+#wrapper.menuDisplayed #page-content-wrapper{
+	padding-left:200px;
+}
+
+/*sidebar styling*/
+.sidebar-nav{
+	padding:0;
+	list-style:none;
+}
+
+.sidebar-nav li{
+	text-indent:20px;
+	line-height:40px;
+}
+
+.sidebar-nav li a{
+	display:block;
+	text-decoration:none;
+	color:#ddd;
+}
+
+.sidebar-nav li a:hover{
+	background:#34AFD4;
+}
+
+/*Footer*/
+#myfooter{
+	margin-top:10px;
+	background-color: lightgray;
+}
+#ft1{
+	float:left;
+	padding-right:700px;
+	
+}
+#ft2{
+	float:right;
+}
